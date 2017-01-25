@@ -1,0 +1,10 @@
+framework module ACHOnFileIosSDK {
+  umbrella header "ACHOnFileIosSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module ACHOnFileIosSDK.__Swift {
+    exclude header "ACHOnFileIosSDK-Swift.h"
+}
